@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Parte do MENU inicial da página */
+
+header {
+    background-image: url('./assets/background1.png');
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    font-family: Inter;
+    color: white;
+    height: 560px;
+}
+
+    header h1 {
+        font-size: 40px;
+        padding-left: 170px;
+        padding-top: 60px;
+        width: 40%;
+    }
+
+    header h4 {
+        font-size: 20px;
+        padding-left: 170px;
+        width: 40%;
+        font-weight: 400;
+    }
+
+
+    #menu {
+        padding-top: 40px;
+        padding-left: 60px;
+    }
+
+main {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* flex-direction: row; */
+
+    border: 1px solid red;
+}
