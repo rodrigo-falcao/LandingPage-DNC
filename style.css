@@ -37,11 +37,29 @@ header {
         padding-left: 60px;
     }
 
-main {
+section {
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
-    /* flex-direction: row; */
+    height: 170px;
+    align-items: center;
+    background-color: #EAECE5;
 
-    border: 1px solid red;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #122235;
+
+    /* border: 1px solid red; */
 }
+
+    .menu2 {
+        display: flex;
+        /* border: 1px solid red; */
+        align-items: center;
+        gap: 10px;
+
+
+    }
+
+    .menu2 img {
+        
+    }
