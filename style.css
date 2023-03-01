@@ -31,35 +31,28 @@ header {
         font-weight: 400;
     }
 
-
     #menu {
         padding-top: 40px;
         padding-left: 60px;
     }
 
-section {
+/* Parte inferior do header */
+
+nav {
     display: flex;
     justify-content: space-around;
     height: 170px;
     align-items: center;
     background-color: #EAECE5;
-
     font-family: 'Inter';
     font-size: 20px;
     color: #122235;
-
-    /* border: 1px solid red; */
 }
 
     .menu2 {
         display: flex;
-        /* border: 1px solid red; */
         align-items: center;
         gap: 10px;
-
-
     }
 
-    .menu2 img {
-        
-    }
+/* Descrição do conteúdo */
