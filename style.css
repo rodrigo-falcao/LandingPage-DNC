@@ -3,6 +3,11 @@ body {
     padding: 0;
 }
 
+.widthPagina {
+    width: 1094px;
+    margin: 0 auto;
+}
+
 /* Parte do MENU inicial da página */
 
 header {
@@ -19,14 +24,12 @@ header {
 
     header h1 {
         font-size: 40px;
-        padding-left: 170px;
         padding-top: 60px;
         width: 40%;
     }
 
     header h4 {
         font-size: 20px;
-        padding-left: 170px;
         width: 40%;
         font-weight: 400;
     }
@@ -39,11 +42,14 @@ header {
 /* Parte inferior do header */
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    height: 170px;
-    align-items: center;
     background-color: #EAECE5;
+}
+
+.navegacaotopo {
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Inter';
     font-size: 20px;
     color: #122235;
@@ -55,4 +61,121 @@ nav {
         gap: 10px;
     }
 
+
 /* Descrição do conteúdo */
+
+#opcao1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    background-color: #FFFFFF;
+    margin-top: auto;
+    /* gap: 55px; */
+}
+
+.superior {
+    margin-right: 0;
+}
+
+.superior iframe {
+    margin-right: 5px;
+}
+
+#lateralOpcao1 {
+    margin-left: 50px;
+}
+
+#lateralOpcao1 h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #247BA0;
+}
+
+#lateralOpcao1 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Segunda descrição do conteúdo */
+
+#opcao2 {
+    background-color: #247BA0;
+    height: 450px;
+}
+
+#opcao2 h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+
+    text-align: center;
+    padding-top: 80px;
+}
+
+#depoimentos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    gap: 33px;
+}
+
+.alunos {
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 32px 40px;
+    gap: 20px;
+}
+
+.alunos img {
+    border-radius: 50%;
+}
+
+/* Rodapé do site */
+
+footer {
+    background-color: #EAECE5;
+    padding: 70px 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer h2 {
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.footer a {
+    display: inline-block;
+    background-color: #247BA0;
+    padding: 20px 90px;
+    text-decoration: none;
+    margin-top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
