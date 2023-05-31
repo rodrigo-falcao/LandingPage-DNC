@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -103,18 +104,17 @@ nav {
 
 /* Segunda descrição do conteúdo */
 
-#opcao2 {
+#carrossel {
     background-color: #247BA0;
     height: 450px;
 }
 
-#opcao2 h2 {
+#carrossel h2 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     color: #FFFFFF;
-
     text-align: center;
     padding-top: 80px;
 }
@@ -127,27 +127,46 @@ nav {
     gap: 33px;
 }
 
-.alunos {
-    display: flex;
-    width: 100%;
-    background-color: #FFFFFF;
-    border-radius: 16px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    padding: 32px 40px;
-    gap: 20px;
+#cards {
+    display: grid;
+    grid-auto-flow: column;
 }
 
-.alunos img {
-    border-radius: 50%;
+.cards {
+    margin: 64px auto;
+}
+
+.button {
+    margin: auto 0;
+}
+
+#seta-esquerda {
+    display: none;
+    cursor: pointer;
+    margin: auto;
+}
+    #seta-esquerda:hover {
+        transform: translateY(-7px);
+        transition-duration: 0.3s;
+    }
+
+#seta-direita {
+    display: flex;
+    cursor: pointer;
+}
+    #seta-direita:hover {
+        transform: translateY(-7px);
+        transition-duration: 0.3s;
+    }
+
+#Samantha {
+    display: none;
 }
 
 /* Rodapé do site */
 
 footer {
-    background-color: #EAECE5;
+    background-color: #FFFFFF;
     padding: 70px 0;
 }
 
@@ -163,19 +182,40 @@ footer {
     line-height: 150%;
 }
 
-.footer a {
-    display: inline-block;
-    background-color: #247BA0;
-    padding: 20px 90px;
-    text-decoration: none;
+form{ 
     margin-top: 40px;
+}
 
+input {
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    background: #EAECE5;
+    margin: 15px;
+    padding-left: 10px;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+    background: #247BA0;
+    border-radius: 5px;
+    border: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 150%;
-    color: #FFFFFF;
-    border-radius: 8px;
+    color: #EAECE5;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
 
+    button:hover {
+        background-color: #318fb8;
+        color: white;
+        transform: translateY(-7px);
+        transition-duration: 0.5s;
+        box-shadow: 0px 15px 20px #1f5972;
+    }
